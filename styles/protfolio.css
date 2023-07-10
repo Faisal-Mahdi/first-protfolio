@@ -9,7 +9,7 @@ body{
 }
 
 .button-primary{
-    border-radius: 0px;
+    border-radius: 0;
     background: #FD6E0A;
     color: #FFFFFF;
     font-size: 20px;
@@ -22,7 +22,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin: 0 200px;
 }
 
 .nav-tittle{
@@ -44,4 +44,29 @@ nav li{
 a{
     text-decoration: none;
     color: #474747;
+    
+}
+
+/*header styles*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex; 
+    align: center;
+}
+.banner-intro{
+    font-size: 45px;
+    font-style: normal;
+    
+}
+.banner-name{
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.propic{
+    width: 500px;
 }
